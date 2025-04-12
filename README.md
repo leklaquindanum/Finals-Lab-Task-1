@@ -17,11 +17,11 @@ This Lab Task involves writing SQL queries, creating table structures, and deve
 - Define **department_id** as an INTEGER, which will be a FOREIGN KEY referencing **department_id** in the *departments table*.
 - Set a COMPOSITE PRIMARY KEY on the combination of **employee_id** and **department_id** (optional).
 
-4. Create the employee_projects table:
+4. Create the *employee_projects table*:
 - Define **employee_id** as an INTEGER, which will be a FOREIGN KEY referencing **employee_id** in the *employees table*.
 - Define **project_name** as a VARCHAR (255 characters at max), and make it NOT NULL.
 
-5. Create the managers table:
+5. Create the *managers table*:
 - Define **manager_id** as a UNIQUE INTEGER, AUTO_INCREMENT, and PRIMARY KEY.
 - Define **employee_id** as an INTEGER, which will be a FOREIGN KEY referencing **employee_id** in the *employees table*.
 
